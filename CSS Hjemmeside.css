@@ -1,6 +1,28 @@
 body {
     background-color: #526352;
 }
+.header {
+    background-color: #532323;
+}
 .nav {
+    font-family: "Copperplate Gothic Bold";
+    text-decoration: #141411;
+}
+.banner {
 
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.Home {
+    width: 100px;
+    height: auto;
+}
+.Right-side {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    align-items: center;
 }
