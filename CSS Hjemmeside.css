@@ -12,7 +12,10 @@ body {
     font-size: larger;
 }
 .banner {
-
+    width: auto;
+    height: 115px;
+    display: block;
+    margin: 0 auto;
 }
 .row {
     display: flex;
