@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034b29d8-c4b5-4d69-9be1-c8ac57dffd85" name="Changes" comment="Added link&#10;&#10;Adding assets">
-      <change beforePath="$PROJECT_DIR$/Assets/Portfolie baner.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Portfolie baner.psd" beforeDir="false" />
+    <list default="true" id="034b29d8-c4b5-4d69-9be1-c8ac57dffd85" name="Changes" comment="Added banner and home button&#10;&#10;started css nav decoration + more">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS Hjemmeside.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS Hjemmeside.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Personlig Hjemmeside.html" beforeDir="false" afterPath="$PROJECT_DIR$/Personlig Hjemmeside.html" afterDir="false" />
     </list>
@@ -89,7 +88,7 @@
       <updated>1787216003072</updated>
       <workItem from="1787216004777" duration="241000" />
       <workItem from="1787216297646" duration="2497000" />
-      <workItem from="1787559565169" duration="2815000" />
+      <workItem from="1787559565169" duration="3437000" />
     </task>
     <task id="LOCAL-00001" summary="First commit&#10;links added with a element, pages, css and js ready">
       <option name="closed" value="true" />
@@ -107,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787560060214</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added banner and home button&#10;&#10;started css nav decoration + more">
+      <option name="closed" value="true" />
+      <created>1787562590795</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1787562590795</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit&#10;links added with a element, pages, css and js ready" />
     <MESSAGE value="Added link&#10;&#10;Adding assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added link&#10;&#10;Adding assets" />
+    <MESSAGE value="Added banner and home button&#10;&#10;started css nav decoration + more" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added banner and home button&#10;&#10;started css nav decoration + more" />
   </component>
 </project>

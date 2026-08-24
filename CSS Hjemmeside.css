@@ -5,8 +5,11 @@ body {
     background-color: #532323;
 }
 .nav {
-    font-family: "Copperplate Gothic Bold";
+    font-family: "copperplate Gothic", serif;
+    font-weight: bold;
     text-decoration: #141411;
+    color: #141411;
+    font-size: larger;
 }
 .banner {
 
