@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034b29d8-c4b5-4d69-9be1-c8ac57dffd85" name="Changes" comment="Centered banner">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="034b29d8-c4b5-4d69-9be1-c8ac57dffd85" name="Changes" comment="Centered banner" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +86,7 @@
       <workItem from="1787216297646" duration="2497000" />
       <workItem from="1787559565169" duration="3979000" />
       <workItem from="1788510372066" duration="102000" />
+      <workItem from="1791888474808" duration="585000" />
     </task>
     <task id="LOCAL-00001" summary="First commit&#10;links added with a element, pages, css and js ready">
       <option name="closed" value="true" />
@@ -129,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787569469831</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Centered banner">
+      <option name="closed" value="true" />
+      <created>1791888581610</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1791888581610</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
