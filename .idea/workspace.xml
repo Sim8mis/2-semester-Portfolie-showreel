@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034b29d8-c4b5-4d69-9be1-c8ac57dffd85" name="Changes" comment="rename Pages">
-      <change afterPath="$PROJECT_DIR$/portfolio.js" afterDir="false" />
+    <list default="true" id="034b29d8-c4b5-4d69-9be1-c8ac57dffd85" name="Changes" comment="png files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Portfolie baner.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/portfolio-banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Portfolie-Home-knap.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/home-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS Hjemmeside.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Hjemmeside.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolie.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -100,7 +97,7 @@
       <workItem from="1792433880961" duration="28000" />
       <workItem from="1792749810471" duration="973000" />
       <workItem from="1792758262366" duration="3105000" />
-      <workItem from="1792956450704" duration="856000" />
+      <workItem from="1792956450704" duration="1364000" />
     </task>
     <task id="LOCAL-00001" summary="First commit&#10;links added with a element, pages, css and js ready">
       <option name="closed" value="true" />
@@ -158,7 +155,23 @@
       <option name="project" value="LOCAL" />
       <updated>1792055495248</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Home page looks good&#10;&#10;Beginning portfolie html and added js">
+      <option name="closed" value="true" />
+      <created>1792957367796</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1792957367796</updated>
+    </task>
+    <task id="LOCAL-00009" summary="png files">
+      <option name="closed" value="true" />
+      <created>1792957387451</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1792957387451</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +184,8 @@
     <MESSAGE value="Font&#10;&#10;Changed font for .nav buttons plus size" />
     <MESSAGE value="Centered banner" />
     <MESSAGE value="rename Pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename Pages" />
+    <MESSAGE value="Home page looks good&#10;&#10;Beginning portfolie html and added js" />
+    <MESSAGE value="png files" />
+    <option name="LAST_COMMIT_MESSAGE" value="png files" />
   </component>
 </project>
