@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034b29d8-c4b5-4d69-9be1-c8ac57dffd85" name="Changes" comment="png files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="034b29d8-c4b5-4d69-9be1-c8ac57dffd85" name="Changes" comment="Added unnamed comic png&#10;&#10;worked on portfolie js css html">
       <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolie.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +94,7 @@
       <workItem from="1792433880961" duration="28000" />
       <workItem from="1792749810471" duration="973000" />
       <workItem from="1792758262366" duration="3105000" />
-      <workItem from="1792956450704" duration="1364000" />
+      <workItem from="1792956450704" duration="1725000" />
     </task>
     <task id="LOCAL-00001" summary="First commit&#10;links added with a element, pages, css and js ready">
       <option name="closed" value="true" />
@@ -171,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792957387451</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added unnamed comic png&#10;&#10;worked on portfolie js css html">
+      <option name="closed" value="true" />
+      <created>1792958055862</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1792958055862</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +191,7 @@
     <MESSAGE value="rename Pages" />
     <MESSAGE value="Home page looks good&#10;&#10;Beginning portfolie html and added js" />
     <MESSAGE value="png files" />
-    <option name="LAST_COMMIT_MESSAGE" value="png files" />
+    <MESSAGE value="Added unnamed comic png&#10;&#10;worked on portfolie js css html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added unnamed comic png&#10;&#10;worked on portfolie js css html" />
   </component>
 </project>
