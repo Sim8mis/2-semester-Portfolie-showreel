@@ -1,37 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Simon Gerhardt Rassing</title>
-    <link rel="stylesheet" href="CSS%20Hjemmeside.css">
-</head>
-<body>
 
-<div>
-    <header class="header">
-        <div class="row">
-            <a href="Home.html">
-                <img class="Home" src="Assets/Portfolie-Home-knap.png" alt="Home">
-            </a>
-            <div class="Right-side">
-                <a class="nav" href="About.html">
-                    <p>About</p>
-                </a>
-                <a class="nav" href="Portfolie.html">
-                    <p>Portfolie</p>
-                </a>
-            </div>
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | Simon's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body id="top">
+
+<!-- HEADER -->
+
+<header class="site-header">
+
+    <a
+            class="home-logo"
+            href="Home.html"
+            aria-label="Go to homepage"
+    >
+        <img src="assets/home-logo.png" alt="Home">
+    </a>
+
+    <nav class="navigation">
+
+        <a href="Portfolio.html">
+            Portfolio
+        </a>
+
+        <a href="Home.html#about">
+            About
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main class="portfolio-page">
+
+    <!-- BANNER -->
+
+    <img
+            class="banner-image"
+            src="assets/portfolio-banner.png"
+            alt="A Bit About Me banner"
+    >
+
+
+
+    <!-- ABOUT ME SECTION -->
+    <section class="about-section" id="about">
+
+        <h1 class="about-title">
+            About<br>me
+        </h1>
+
+        <div class="about-text">
+            <p>
+                Hello there! My name is Simon Gerhardt Rassing.
+            </p>
+
+            <p>
+                I am a history interested, gaming, story obsessed writer.
+                I love stories and I am highly interested in creating my
+                own. Currently I am working with my own fantasy novel.
+                In the future I hope to write many more and make greatly
+                expanded universes.
+            </p>
+
+            <p>
+                I hope to see them peaking others interest sometime.
+            </p>
         </div>
 
-    </header>
-    <img class="banner" src="Assets/Portfolie%20baner.png" alt="Banner">
-    <div>
+        <!-- IMAGE CAROUSEL -->
+        <div class="carousel">
 
-    </div>
-    <footer>
+            <div class="carousel-image-container">
+                <img
+                        id="carousel-image"
+                        src="assets/image1.png"
+                        alt="My creative work"
+                >
+            </div>
 
-    </footer>
-</div>
+            <div class="carousel-arrows">
+
+                <button
+                        type="button"
+                        id="previous-image"
+                >↑</button>
+
+                <button
+                        type="button"
+                        id="next-image"
+                >↓</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PORTFOLIO BOOK BUTTON -->
+    <section class="portfolio-link-section">
+
+        <a href="Portfolio.html" class="book-button"
+           aria-label="Open portfolio">
+
+            <span class="book-spine"></span>
+
+            <span class="book-title">
+        </span>
+
+            <span class="book-pages"></span>
+
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+<footer class="site-footer">
+
+    <span>Simon Gerhardt Rassing</span>
+
+    <a href="Home.html">
+        ← Back home
+    </a>
+
+</footer>
 
 </body>
+
 </html>

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034b29d8-c4b5-4d69-9be1-c8ac57dffd85" name="Changes" comment="Centered banner" />
+    <list default="true" id="034b29d8-c4b5-4d69-9be1-c8ac57dffd85" name="Changes" comment="rename Pages">
+      <change afterPath="$PROJECT_DIR$/portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolie baner.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/portfolio-banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolie-Home-knap.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/home-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS Hjemmeside.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Hjemmeside.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolie.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolie.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +96,11 @@
       <workItem from="1787559565169" duration="3979000" />
       <workItem from="1788510372066" duration="102000" />
       <workItem from="1791888474808" duration="585000" />
+      <workItem from="1792055340589" duration="1377000" />
+      <workItem from="1792433880961" duration="28000" />
+      <workItem from="1792749810471" duration="973000" />
+      <workItem from="1792758262366" duration="3105000" />
+      <workItem from="1792956450704" duration="856000" />
     </task>
     <task id="LOCAL-00001" summary="First commit&#10;links added with a element, pages, css and js ready">
       <option name="closed" value="true" />
@@ -136,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791888581610</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="rename Pages">
+      <option name="closed" value="true" />
+      <created>1792055495248</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1792055495248</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +170,7 @@
     <MESSAGE value="Added banner and home button&#10;&#10;started css nav decoration + more" />
     <MESSAGE value="Font&#10;&#10;Changed font for .nav buttons plus size" />
     <MESSAGE value="Centered banner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Centered banner" />
+    <MESSAGE value="rename Pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename Pages" />
   </component>
 </project>

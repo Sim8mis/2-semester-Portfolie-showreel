@@ -2,9 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="portfolio.js" defer></script>
 </head>
-<body>
+
+<body class="portfolio-page">
+
+<!-- NAVIGATION BAR -->
+<header class="navbar">
+    <a href="Home.html" class="home-link">
+        <span class="home-icon">⌂</span>
+        <span>HOME</span>
+    </a>
+
+    <nav class="nav-links">
+        <a href="Portfolie.html">Portfolio</a>
+        <a href="Home.html#about">About</a>
+    </nav>
+</header>
+
+<!-- PORTFOLIO TITLE -->
+<main>
+    <h1 class="portfolio-title">Portfolio</h1>
+
+    <!-- PROJECT IMAGES -->
+    <section class="project-grid">
+
+        <button class="project-card"
+                data-title="Project One"
+                data-description="Write a description of your first project here. Explain what you created, which tools you used, and what you learned."
+                aria-label="View Project One">
+            <img src="assets/project1.png" alt="Project One">
+        </button>
+
+        <button class="project-card"
+                data-title="Project Two"
+                data-description="Write a description of your second project here."
+                aria-label="View Project Two">
+            <img src="assets/project2.png" alt="Project Two">
+        </button>
+
+        <button class="project-card"
+                data-title="Project Three"
+                data-description="Write a description of your third project here."
+                aria-label="View Project Three">
+            <img src="assets/project3.png" alt="Project Three">
+        </button>
+
+        <button class="project-card"
+                data-title="Project Four"
+                data-description="Write a description of your fourth project here."
+                aria-label="View Project Four">
+            <img src="assets/project4.png" alt="Project Four">
+        </button>
+
+        <button class="project-card"
+                data-title="Project Five"
+                data-description="Write a description of your fifth project here."
+                aria-label="View Project Five">
+            <img src="assets/project5.png" alt="Project Five">
+        </button>
+
+    </section>
+</main>
+
+<!-- PROJECT POPUP -->
+<div class="project-overlay" id="project-overlay"
+     aria-hidden="true">
+
+    <section class="project-popup" role="dialog"
+             aria-modal="true" aria-labelledby="popup-title">
+
+        <button class="popup-close" id="popup-close"
+                aria-label="Close project information">
+            &times;
+        </button>
+
+        <div class="popup-image-container">
+            <img id="popup-image" src="" alt="">
+        </div>
+
+        <div class="project-info" id="project-info">
+            <h2 id="popup-title"></h2>
+            <p id="popup-description"></p>
+        </div>
+
+    </section>
+</div>
 
 </body>
 </html>

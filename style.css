@@ -1,0 +1,407 @@
+
+/* GENERAL SETTINGS */
+
+:root {
+    --green: #526454;
+    --green-dark: #303a32;
+    --header-brown: #68443d;
+    --cream: #eee9df;
+    --red: #c45559;
+    --serif: Georgia, "Times New Roman", serif;
+    --sans: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body {
+    margin: 0;
+    background-color: var(--green);
+    color: var(--cream);
+    font-family: var(--sans);
+}
+
+a {
+    color: inherit;
+}
+
+
+/* HEADER */
+
+.site-header {
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3.2%;
+    background-color: var(--header-brown);
+    color: #171713;
+    position: relative;
+    z-index: 5;
+}
+
+/* HOME LOGO */
+
+.home-logo {
+    display: flex;
+    align-items: center;
+    width: 90px;
+    height: 65px;
+    overflow: hidden;
+}
+
+.home-logo img {
+    width: 100%;
+    max-height: 62px;
+    object-fit: contain;
+    object-position: left center;
+}
+
+/* NAVIGATION */
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: clamp(35px, 9vw, 105px);
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #171713;
+    font-family: var(--serif);
+    font-size: clamp(23px, 3.4vw, 36px);
+    line-height: 1;
+}
+
+.navigation a:hover,
+.navigation a.current {
+    color: var(--cream);
+}
+
+.menu-toggle {
+    display: none;
+    border: none;
+    background: transparent;
+    color: var(--cream);
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+/* BANNER */
+
+.banner-section {
+    background-color: var(--green);
+    overflow: hidden;
+}
+
+.banner-image {
+    display: block;
+    width: 100%;
+    height: clamp(110px, 16vw, 160px);
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* ABOUT ME SECTION */
+
+.about-section {
+    min-height: 180px;
+
+    display: grid;
+    grid-template-columns: 115px minmax(240px, 1fr) minmax(240px, 36%);
+
+    align-items: center;
+    gap: clamp(18px, 3vw, 42px);
+
+    padding: 7px 3.2% 10px;
+
+    background-color: var(--green-dark);
+}
+
+.about-section h1 {
+    margin: 0;
+    text-align: center;
+    font-family: var(--sans);
+    font-size: clamp(26px, 3vw, 35px);
+    line-height: 1.18;
+}
+
+.about-text {
+    max-width: 590px;
+    font-size: clamp(13px, 1.65vw, 16px);
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+.about-text p {
+    margin: 0;
+}
+
+
+
+/* CAROUSEL */
+
+.carousel {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 48px;
+    align-items: center;
+    gap: 5px;
+    padding: 0 10px 0 0;
+}
+
+.carousel-image-container {
+    width: 100%;
+    max-width: 260px;
+    height: 155px;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+.carousel-image-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* ARROWS */
+
+.carousel-arrows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.carousel-arrows button {
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 38px;
+    cursor: pointer;
+}
+/* PORTFOLIO BOOK BUTTON */
+
+.portfolio-link-section {
+    min-height: 205px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 28px 20px;
+
+    background-color: var(--green);
+}
+
+.book-button {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 111px;
+    height: 150px;
+
+    border-radius: 13px 4px 4px 13px;
+
+    background-color: var(--red);
+    color: #15120f;
+    text-decoration: none;
+
+    box-shadow: inset 9px 0 0 #984044;
+
+    transition: transform 0.2s ease;
+}
+
+.book-button:hover {
+    transform: translateY(-7px) rotate(-2deg);
+}
+
+/* Book spine */
+
+.book-spine {
+    position: absolute;
+    left: 0;
+    top: 9px;
+    bottom: 12px;
+
+    width: 13px;
+
+    border-top: 4px solid #d4a143;
+    border-bottom: 4px solid #d4a143;
+}
+
+/* Text on the book */
+
+.book-title {
+    text-align: center;
+    font-family: var(--serif);
+    font-size: 28px;
+    line-height: 1.45;
+}
+
+/* Bottom pages */
+
+.book-pages {
+    position: absolute;
+    left: 2px;
+    right: 0;
+    bottom: -2px;
+
+    height: 15px;
+
+    border-radius: 0 0 4px 10px;
+    background-color: #d7e0df;
+    border-top: 4px solid #aabec1;
+}
+
+
+/* FOOTER */
+
+.site-footer {
+    min-height: 64px;
+
+    padding: 20px 3.2%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+    background-color: #435246;
+    color: #dce0d6;
+
+    font-size: 11px;
+}
+
+.site-footer a {
+    text-decoration: none;
+}
+
+
+/* PORTFOLIO PAGE */
+
+.portfolio-intro {
+    padding: 55px 8% 25px;
+}
+
+
+/* MOBILE LAYOUT */
+
+@media (max-width: 680px) {
+
+    .site-header {
+        padding: 0 5%;
+        min-height: 64px;
+    }
+
+    .home-logo {
+        width: 70px;
+        height: 58px;
+    }
+
+    .home-logo img {
+        max-height: 54px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+
+        position: absolute;
+        top: 64px;
+        right: 0;
+        left: 0;
+
+        padding: 20px 5%;
+
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+
+        background-color: var(--header-brown);
+    }
+
+    .navigation.open {
+        display: flex;
+    }
+
+    .navigation a {
+        font-size: 28px;
+    }
+
+    .banner-image {
+        height: 105px;
+    }
+
+    .about-section {
+        grid-template-columns: 1fr;
+        gap: 17px;
+        padding: 25px 6%;
+    }
+
+    .about-section h1 {
+        text-align: left;
+    }
+
+    .about-text {
+        max-width: none;
+        font-size: 15px;
+        line-height: 1.45;
+    }
+
+    .carousel {
+        grid-template-columns: minmax(0, 1fr) 36px;
+    }
+
+    .carousel-image-wrap {
+        height: 210px;
+    }
+
+    .carousel-controls button {
+        font-size: 42px;
+    }
+
+    .portfolio-link-section {
+        min-height: 190px;
+    }
+
+    .work-grid {
+        grid-template-columns: 1fr;
+        padding: 20px 6% 55px;
+    }
+
+    .portfolio-intro {
+        padding: 40px 6% 20px;
+    }
+}
+
+
+/* ACCESSIBILITY */
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.01ms !important;
+    }
+}
