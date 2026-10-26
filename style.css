@@ -423,18 +423,6 @@ a {
 
 /* NAVIGATION */
 
-.portfolio-page .navbar {
-    height: 62px;
-    box-sizing: border-box;
-    background-color: var(--portfolio-brown);
-    border: 1px solid rgba(0, 0, 0, 0.2);
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 28px;
-}
-
 .portfolio-page .home-link {
     display: flex;
     flex-direction: column;

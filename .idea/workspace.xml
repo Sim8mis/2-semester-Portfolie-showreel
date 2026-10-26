@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034b29d8-c4b5-4d69-9be1-c8ac57dffd85" name="Changes" comment="Added unnamed comic png&#10;&#10;worked on portfolie js css html">
-      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
+    <list default="true" id="034b29d8-c4b5-4d69-9be1-c8ac57dffd85" name="Changes" comment="Fixed book button, goes to right page.&#10;added second project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolie.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,8 @@
       <workItem from="1792433880961" duration="28000" />
       <workItem from="1792749810471" duration="973000" />
       <workItem from="1792758262366" duration="3105000" />
-      <workItem from="1792956450704" duration="1725000" />
+      <workItem from="1792956450704" duration="1821000" />
+      <workItem from="1793005809327" duration="1169000" />
     </task>
     <task id="LOCAL-00001" summary="First commit&#10;links added with a element, pages, css and js ready">
       <option name="closed" value="true" />
@@ -176,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792958055862</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fixed book button, goes to right page.&#10;added second project">
+      <option name="closed" value="true" />
+      <created>1792958282805</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1792958282805</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +202,7 @@
     <MESSAGE value="Home page looks good&#10;&#10;Beginning portfolie html and added js" />
     <MESSAGE value="png files" />
     <MESSAGE value="Added unnamed comic png&#10;&#10;worked on portfolie js css html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added unnamed comic png&#10;&#10;worked on portfolie js css html" />
+    <MESSAGE value="Fixed book button, goes to right page.&#10;added second project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed book button, goes to right page.&#10;added second project" />
   </component>
 </project>
