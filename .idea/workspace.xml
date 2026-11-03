@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034b29d8-c4b5-4d69-9be1-c8ac57dffd85" name="Changes" comment="Fixed border showing&#10;&#10;rotated and aligned image-three">
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="034b29d8-c4b5-4d69-9be1-c8ac57dffd85" name="Changes" comment="Changed about me text colour">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,8 @@
       <workItem from="1792758262366" duration="3105000" />
       <workItem from="1792956450704" duration="1821000" />
       <workItem from="1793005809327" duration="1450000" />
-      <workItem from="1793543312178" duration="2271000" />
+      <workItem from="1793543312178" duration="2484000" />
+      <workItem from="1793608532331" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="First commit&#10;links added with a element, pages, css and js ready">
       <option name="closed" value="true" />
@@ -225,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793545535848</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Changed about me text colour">
+      <option name="closed" value="true" />
+      <created>1793545742999</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1793545742999</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +256,7 @@
     <MESSAGE value="Fixed portfolie nav menu issue" />
     <MESSAGE value="Added png&#10;&#10;Added images to about me" />
     <MESSAGE value="Fixed border showing&#10;&#10;rotated and aligned image-three" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed border showing&#10;&#10;rotated and aligned image-three" />
+    <MESSAGE value="Changed about me text colour" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed about me text colour" />
   </component>
 </project>
